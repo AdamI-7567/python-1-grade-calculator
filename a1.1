@@ -12,7 +12,10 @@ if labs >= 6:
     gl = (6/6 * 20)
 else:
     gl = (labs/6 * 20)
-gq = (quizzes/6 * 15)
+if quizzes >= 6:
+    gq = (6/6 * 15)
+else:
+    gq = (quizzes/6 * 15)
 ga = (a1/100 * 4 + a2/100 * 4 + a3/100 * 4 + a4/100 * 4)
 gm = (m1/100 * 12.5 + m2/100 * 12.5)
 gf = (f/100 * 18)
